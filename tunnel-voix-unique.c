@@ -17,7 +17,7 @@ int nb_X_dans_tunnel = 0;
 int nb_Y_dans_tunnel = 0;
 int nb_attente_X = 0;
 int nb_attente_Y = 0;
-int tour = 0; // 0: X, 1: Y
+int tour = 0;
 
 void entrer_tunnel_X(int id) {
     sem_wait(&mutex);
